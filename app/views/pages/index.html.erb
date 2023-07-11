@@ -1,0 +1,10 @@
+
+<h2> Conoce a los alumnos de Hogwarts </h2>
+Nombre
+Localizacion
+Casa
+<% @characters.each do |p| %>
+<h2> Nombre:<%= p.name %></h2>
+<h3> Localización: <%= p.location %></h3>
+<h3> Casa: <%= p.house%></h3>
+<% end%>
