@@ -9,8 +9,8 @@
 
 10.times do |i|
     Character.create(
-      name: Faker::Name.name,
-      location: Faker::Address.location,
-      house: Faker::House.house)
+      name: Faker::Movies::HarryPotter.character,
+      location: Faker::Movies::HarryPotter.location,
+      house: Faker::Movies::HarryPotter.house)
     
   end

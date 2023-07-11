@@ -1,8 +1,8 @@
+<h1> Bienvenidos a Hogwarts </h1>
+<%= image_tag 'pexels-craig-adderley-3359734.jpg', class: "imagen" %>
 
 <h2> Conoce a los alumnos de Hogwarts </h2>
-Nombre
-Localizacion
-Casa
+
 <% @characters.each do |p| %>
 <h2> Nombre:<%= p.name %></h2>
 <h3> Localización: <%= p.location %></h3>
